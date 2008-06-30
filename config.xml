@@ -1,0 +1,107 @@
+<UserScriptConfig>
+	<Script filename="autopagerize.user.js" name="AutoPagerize" namespace="http://swdyh.yu.to/" description="loading next page and inserting into current page." enabled="true" basedir="autopagerize">
+		<Include>http://*</Include>
+		<Include>https://*</Include>
+		<Exclude>https://mail.google.com/*</Exclude>
+	</Script>
+	<Script filename="minibuffer.user.js" name="Minibuffer" namespace="http://white.s151.xrea.com/" description="Minibuffer" enabled="true" basedir="minibuffer">
+		<Include>*</Include>
+	</Script>
+	<Script filename="ldrize.user.js" name="LDRize" namespace="http://white.s151.xrea.com/" description="j,k,v,p,o,:,f,? + l,s,i" enabled="true" basedir="ldrize">
+		<Include>*</Include>
+	</Script>
+	<Script filename="ldr_full_feed.user.js" name="LDR Full Feed" namespace="http://d.hatena.ne.jp/Constellation/" description="loading full entry on LDR and Fastladder" enabled="true" basedir="ldr_full_feed">
+		<Include>http://reader.livedoor.com/reader/*</Include>
+		<Include>http://fastladder.com/reader/*</Include>
+	</Script>
+	<Script filename="jautopagerize.user.js" name="jAutoPagerize" namespace="http://lowreal.net/" description="Just Another AutoPagerize" enabled="false" basedir=".">
+		<Include>http://*</Include>
+	</Script>
+	<Script filename="focus_field.user.js" name="Focus Field" namespace="http://libelabo.jp/" description="Focus on Field in turn" enabled="true" basedir="focus_field">
+		<Include>*</Include>
+	</Script>
+	<Script filename="google_button_search_now.user.js" name="Google Button Search Now" namespace="http://a-h.parfe.jp/einfach/" description="" enabled="true" basedir="google_button_search_now">
+		<Include>http://*.google.*/*</Include>
+	</Script>
+	<Script filename="quick_focus_out.user.js" name="quick_focus_out" namespace="perlnamehoge@gmail.com" description="" enabled="true" basedir="quick_focus_out">
+		<Include>http://*</Include>
+	</Script>
+	<Script filename="sbm_comments_viewer.user.js" name="SBM Comments Viewer" namespace="http://white.s151.xrea.com/wiki/index.php?script/SBMCommentsViewer" description="Show social bookmark's comments at the bottom of your browser." enabled="true" basedir="sbm_comments_viewer">
+		<Include>*</Include>
+	</Script>
+	<Script filename="sbmcvwithhatenastar.user.js" name="SBMCV with Hatena Star" namespace="http://june29.jp/" description="Show social bookmark's comments with Hatena Star at the bottom of your browser." enabled="false" basedir=".">
+		<Include>http://*</Include>
+		<Exclude>*.js</Exclude>
+		<Exclude>*.txt</Exclude>
+		<Exclude>*.css</Exclude>
+		<Exclude>*.py</Exclude>
+		<Exclude>*.rb</Exclude>
+		<Exclude>*.pl</Exclude>
+		<Exclude>*.el</Exclude>
+		<Exclude>*.l</Exclude>
+	</Script>
+	<Script filename="scroll_like_the_ldr.user.js" name="Scroll like the LDR" namespace="http://d.hatena.ne.jp/nagaton/" description="" enabled="true" basedir="scroll_like_the_ldr">
+		<Include>http*://*</Include>
+	</Script>
+	<Script filename="twitter_multiplayer.user.js" name="Twitter MultiPlayer" namespace="http://d.hatena.ne.jp/os0x/" description="" enabled="true" basedir="twitter_multiplayer">
+		<Include>http://twitter.com/*</Include>
+		<Include>http://twitread.ss-o.net/*</Include>
+	</Script>
+	<Script filename="foko3.user.js" name="foko3" namespace="http://june29.jp/" description="" enabled="true" basedir="foko3">
+		<Include>*</Include>
+	</Script>
+	<Script filename="twittashiro.user.js" name="Twittashiro" namespace="http://22century.cute.bz/" description="Twitter TimeLine asynchronous reload" enabled="true" basedir="twittashiro">
+		<Include>http://twitter.com/home</Include>
+	</Script>
+	<Script filename="javadoc_incremental_sear.user.js" name="Javadoc Incremental Search" namespace="http://kengo.z1.bbzone.net/" description="Incremental search for Javadoc Class names." enabled="true" basedir="javadoc_incremental_sear">
+		<Include>*/allclasses-frame.html </Include>
+	</Script>
+	<Script filename="june29s_ldr_custom_keybi.user.js" name="june29's LDR Custom Keybinds" namespace="http://june29.jp/" description="" enabled="true" basedir="june29s_ldr_custom_keybi">
+		<Include>http://reader.livedoor.com/reader/*</Include>
+		<Include>http://fastladder.com/reader/*</Include>
+	</Script>
+	<Script filename="ldr_with_social_bookmark.user.js" name="LDR with Social Bookmark Count Images" namespace="http://shinten.info/" description="" enabled="true" basedir="ldr_with_social_bookmark">
+		<Include>http://reader.livedoor.com/reader/*</Include>
+		<Include>http://fastladder.com/reader/*</Include>
+	</Script>
+	<Script filename="favicon_with_google_3.user.js" name="Favicon with Google 3" namespace="http://white.s151.xrea.com/wiki/index.php?script/faviconwithgoogle3" description="A script to add favicons next to links on Google search results " enabled="true" basedir="favicon_with_google_3">
+		<Include>http://*google.*/*q=*</Include>
+		<Exclude>http://mail.google.com/*</Exclude>
+	</Script>
+	<Script filename="text_to_image.user.js" name="text to image" namespace="http://d.hatena.ne.jp/youpy/" description="" enabled="false" basedir="text_to_image">
+		<Include>*</Include>
+	</Script>
+	<Script filename="twitter_-_katakoto_speak.user.js" name="Twitter - kATakOto SPEAKER" namespace="http://d.hatena.ne.jp/koyachi/" description="icanspeakjapanese" enabled="true" basedir="twitter_-_katakoto_speak">
+		<Include>http://twitter.com/*</Include>
+	</Script>
+	<Script filename="ldr_favicon_hack.user.js" name="LDR favicon hack" namespace="http://d.hatena.ne.jp/javascripter/" description="" enabled="false" basedir="ldr_favicon_hack">
+		<Include>http://reader.livedoor.com/reader/</Include>
+	</Script>
+	<Script filename="hatena_star_everywhere.user.js" name="Hatena Star Everywhere" namespace="http://s.hatena.ne.jp/" description="" enabled="true" basedir="hatena_star_everywhere">
+		<Include>*</Include>
+	</Script>
+	<Script filename="wwwww.user.js" name="wwwww" namespace="http://www.kanasansoft.com/" description="[wwwww] is changed into [w3w]." enabled="true" basedir="wwwww">
+		<Include>*</Include>
+	</Script>
+	<Script filename="flickr_photo_data_editr_.user.js" name="Flickr Photo Data Editr for AutoPagerize" namespace="http://d.hatena.ne.jp/Meguu" description="" enabled="true" basedir="flickr_photo_data_editr_">
+		<Include>http://www.flickr.com/photos/*</Include>
+	</Script>
+	<Script filename="twitter_identiconize.user.js" name="twitter identiconize" namespace="http://www.relucks.org/" description="" enabled="false" basedir="twitter_identiconize">
+		<Include>http://twitter.com/home</Include>
+	</Script>
+	<Script filename="ldr_with_hatenastar.user.js" name="LDR with HatenaStar" namespace="http://ma.la/" description="add HatenaStar to LDR" enabled="true" basedir="ldr_with_hatenastar">
+		<Include>http://reader.livedoor.com/reader/</Include>
+	</Script>
+	<Script filename="interestcloud.user.js" name="InterestCloud" namespace="http://june29.jp/" description="" enabled="true" basedir="interestcloud">
+		<Include>http://*</Include>
+		<Include>https://*</Include>
+		<Exclude>http://june29.jp/*</Exclude>
+	</Script>
+	<Script filename="gwitter.user.js" name="Gwitter" namespace="nobuhito.sato@gmail.com" description="This script does the post to twitter with a google search" enabled="false" basedir="gwitter">
+		<Include>http://google.*/search*</Include>
+		<Include>http://www.google.*/search*</Include>
+	</Script>
+	<Script filename="sbm_count_with_google.user.js" name="SBM Count With Google" namespace="http://white.s151.xrea.com/" description="show SBM count in Google search result" enabled="true" basedir="sbm_count_with_google">
+		<Include>http://www.google.*/*q=*</Include>
+	</Script>
+</UserScriptConfig>
